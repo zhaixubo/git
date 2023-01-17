@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface dog : NSObject
 
+@property (nonatomic, strong) NSInteger i;
 @end
 
 NS_ASSUME_NONNULL_END
