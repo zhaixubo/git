@@ -12,6 +12,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"zxb第一次");
         NSLog(@"zxb第2次");
+        NSLog(@"zzy第一次");
     }
     return 0;
 }
