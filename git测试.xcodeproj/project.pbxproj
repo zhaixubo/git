@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58556D242976EA3500E9B36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D232976EA3500E9B36B /* main.m */; };
+		58556D2C2976F36200E9B36B /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 58556D2B2976F36200E9B36B /* dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		58556D202976EA3500E9B36B /* git测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "git测试"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58556D232976EA3500E9B36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58556D2A2976F36200E9B36B /* dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		58556D2B2976F36200E9B36B /* dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				58556D232976EA3500E9B36B /* main.m */,
+				58556D2A2976F36200E9B36B /* dog.h */,
+				58556D2B2976F36200E9B36B /* dog.m */,
 			);
 			path = "git测试";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58556D2C2976F36200E9B36B /* dog.m in Sources */,
 				58556D242976EA3500E9B36B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
