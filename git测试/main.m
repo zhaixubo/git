@@ -13,6 +13,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"zxb第一次");
         NSLog(@"zxb第2次");
         NSLog(@"zzy第一次");
+        NSLog(@"zxb第3次");
+
     }
     return 0;
 }
